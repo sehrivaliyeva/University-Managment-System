@@ -12,7 +12,8 @@ public class AttendanceValidator {
     private final AttendanceRepository attendanceRepository;
 
     public void validateAttendanceNotExist(AttendanceEntity attendanceEntity) {
-        var response = attendanceRepository.findByLessonAndStudent(attendanceEntity.getLesson(), attendanceEntity.getStudent());
+        var response = attendanceRepository.findByLessonAndStudent(attendanceEntity.getLesson(),
+                attendanceEntity.getStudent());
         if (response.isPresent()) {
             throw new AttendanceValidateException("Attendance is already submitted.");
         }
