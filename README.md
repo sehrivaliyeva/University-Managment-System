@@ -31,16 +31,29 @@ The system validates student grades, course schedules, and user registration det
 
 
 Spring Boot: Framework for building the application.
+
 spring-boot-starter-data-jpa: Simplifies database access and ORM functionality.
+
 spring-boot-starter-web: Provides tools for building RESTful web services.
+
 spring-boot-starter-validation: Enables data validation.
+
 spring-boot-starter: Core library for Spring Boot applications.
+
 spring-boot-starter-test: Used for testing the application.
+
 MySQL: Relational database management system for persistent data storage.
+
 Lombok: Reduces boilerplate code by generating getters, setters, and constructors.
+
 MapStruct: Simplifies object mapping and data transformation.
+
 SpringDoc OpenAPI: Automatically generates interactive API documentation.
+
 Java 17 or higher
+
 MySQL Database
+
 Maven or Gradle for dependency management
+
 An IDE such as IntelliJ IDEA 
