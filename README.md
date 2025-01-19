@@ -1,4 +1,4 @@
-                                                                                          ##University Management System
+                                                                                          University Management System
 
 The University Management System is a comprehensive web application built using the Spring Framework designed to manage various aspects of a university's administrative and academic operations. It facilitates the management of students, instructors, courses, and grading systems, as well as planning and assigning responsibilities for instructors and students. The system also includes validation mechanisms to ensure data integrity.
 
@@ -26,7 +26,7 @@ Instructors are assigned to individual students or groups of students for mentor
 The application includes built-in validation to ensure that only valid data is entered.
 The system validates student grades, course schedules, and user registration details.
 
-                                                                                          ##Technologies Used
+                                                                                          Technologies Used
 
 
 
