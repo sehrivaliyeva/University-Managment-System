@@ -1,44 +1,42 @@
 # University Management System
 
-The **University Management System** is a comprehensive web application built using the Spring Framework. It is designed to manage various aspects of a university's administrative and academic operations. The application facilitates the management of students, instructors, courses, and grading systems, along with planning and assigning responsibilities. It includes robust validation mechanisms to ensure data integrity.
+## 📌 Project Overview
+The **University Management System** is a Spring Boot application designed to manage university operations efficiently. The system allows administrators to manage students, teachers, instructors, lessons, departments, attendance records, and grades.
 
-## Features
+## 🛠️ Technologies Used
+- **Java 17**
+- **Spring Boot** (Spring MVC, Spring Data JPA, Spring Security)
+- **Hibernate** (ORM framework)
+- **MySQL** (Database)
+- **Lombok** (Simplifies boilerplate code)
+- **Gradle/Maven** (Build tool)
+- **Swagger** (API Documentation)
 
-### 1. **User Registration**
-- Students and instructors can register accounts in the system.
-- User profiles store essential information such as name, contact details, and roles (Student/Instructor).
+## 🚀 Installation and Setup
 
-### 2. **Course Planning**
-- Facilitates the creation and management of courses.
-- Instructors can plan and schedule courses, including topics, dates, and other relevant details.
+### Prerequisites:
+1. **Java 17+** installed
+2. **MySQL** installed and running
+3. **Gradle or Maven** installed
+4. **Postman or any API testing tool** (Optional)
 
-### 3. **Grading System**
-- A comprehensive grading mechanism allows instructors to assign grades to students.
-- Supports different grading scales (numeric, letter grades) based on course requirements.
 
-### 4. **Course Assignments**
-- Instructors are assigned to courses.
-- Students can be enrolled in courses based on their study programs.
+## 🏫 Core Entities
+- **Student**: Represents students in the university
+- **Teacher**: Represents university teachers
+- **Instructor**: Manages academic courses
+- **Lesson**: Represents courses offered by the university
+- **Department**: Represents different university departments
+- **Attendance**: Tracks student attendance
+- **Grade**: Stores student grades
 
-### 5. **Instructor-Student Assignments**
-- Instructors are assigned to individual students or groups for mentorship or class instruction.
 
-### 6. **Validation System**
-- Built-in validation ensures that only valid data is entered.
-- The system validates student grades, course schedules, and user registration details.
 
-## Technologies Used
+## 🤝 Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature-branch`)
+3. Commit changes (`git commit -m 'Add new feature'`)
+4. Push to branch (`git push origin feature-branch`)
+5. Open a pull request
 
-- **Spring Boot**: Framework for building the application.
-- **spring-boot-starter-data-jpa**: Simplifies database access and ORM functionality.
-- **spring-boot-starter-web**: Provides tools for building RESTful web services.
-- **spring-boot-starter-validation**: Enables data validation.
-- **spring-boot-starter**: Core library for Spring Boot applications.
-- **spring-boot-starter-test**: Used for testing the application.
-- **MySQL**: Relational database management system for persistent data storage.
-- **Lombok**: Reduces boilerplate code by generating getters, setters, and constructors.
-- **MapStruct**: Simplifies object mapping and data transformation.
-- **SpringDoc OpenAPI**: Automatically generates interactive API documentation.
-- **Java**: Version 17 or higher.
-- **Maven or Gradle**: For dependency management.
-- **IDE**: Such as IntelliJ IDEA.
